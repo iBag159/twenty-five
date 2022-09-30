@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import LeftCylinder from "./components/LeftCylinder.js";
+import RightCylinder from "./components/RightCylinder.js";
+import PrismButton from "./components/PrismButton.js";
+import Screen from "./components/Screen.js";
+import CuboidButton from './components/CuboidButton'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id="clock">
+      <div className="scene" style={{ transform: "rotateX(55deg) rotateY(0) rotateZ(25deg)" }}>
+        <LeftCylinder />
+        <Screen />
+        <RightCylinder />
+        <PrismButton name="less-break"/>
+        <PrismButton name="plus-break" />
+        <PrismButton name="less-seasson"/>
+        <PrismButton name="plus-seasson"/>
+        <CuboidButton name="play" active={true}/>
+        <CuboidButton name="pause"/>
+        <CuboidButton name="reset"/>
+      </div>
     </div>
   );
 }
