@@ -1,6 +1,6 @@
 function RightCylinder() {
   return (
-    <div className="shape cylinder-2 cyl-2">
+    <div className="shape cylinder right">
       <div className="face side s0">
         <div className="photon-shader" style={{backgroundColor: "rgba(0, 0, 0, 0.133)"}}></div>
       </div>

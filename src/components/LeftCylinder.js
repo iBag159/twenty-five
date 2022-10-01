@@ -1,14 +1,6 @@
-function LetfCylinder() {
+function LeftCylinder() {
   return (
-    <div className="shape cylinder-1 cyl-1">
-      {/*
-      <div className="face bm">
-        <div className="photon-shader" style={{backgroundColor: "rgba(0, 0, 0, 0.15)"}}></div>
-      </div>
-      <div className="face tp">
-        <div className="photon-shader" style={{backgroundColor: "rgba(0, 0, 0, 0.15)"}}></div>
-      </div>
-      */}
+    <div className="shape cylinder left">
       <div className="face side s14">
         <div className="photon-shader" style={{backgroundColor: "rgba(0, 0, 0, 0.467)"}}></div>
       </div>
@@ -55,4 +47,4 @@ function LetfCylinder() {
   )
 }
 
-export default LetfCylinder;
+export default LeftCylinder;
