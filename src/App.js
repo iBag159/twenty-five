@@ -3,7 +3,7 @@ import LeftCylinder from "./components/LeftCylinder.js";
 import RightCylinder from "./components/RightCylinder.js";
 import PrismButton from "./components/PrismButton.js";
 import Screen from "./components/Screen.js";
-import CuboidButton from './components/CuboidButton'
+import CuboidButton from './components/CuboidButton';
 
 function App() {
   return (
